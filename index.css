@@ -1,6 +1,29 @@
-h1{text-align: center;}
-img{float: left; width: 200px; margin-right: 30px; border-radius: 10px;}
-p.copyright{text-align: right;}
-body{background-image: url(images/IMG_20191105_171755_716.jpg);}
-body{color: azure;}
-article{padding-top: 20px;}
+h1 {
+    text-align: center;
+}
+
+img {
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+p.copyright {
+    text-align: right;
+}
+
+body {
+    background-image: url('/images/IMG_20191105_171755_716.jpg') ;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center; /* Center the image */
+}
+
+body {
+    color: azure;
+}
+
+article {
+    padding-top: 20px;
+}
